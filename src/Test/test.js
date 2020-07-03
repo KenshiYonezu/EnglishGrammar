@@ -9,7 +9,7 @@ class Myproject extends Component {
     super();
  
     this.state ={
- 
+
       status:true
  
     }
@@ -32,7 +32,9 @@ ShowHideTextComponentView = () =>{
     return (
  
       <View style={styles.MainContainer}>
- 
+        <View>
+          
+        </View>
       {
           // Pass any View or Component inside the curly bracket.
           // Here the ? Question Mark represent the ternary operator.
